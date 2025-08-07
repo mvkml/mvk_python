@@ -12,4 +12,5 @@ if __name__ == "__main__":
     print("Welcome to Vollama Console Chatbot!")
     ollama_100_3()
     #load()  # Call chatbot loader function
+    #test
     
