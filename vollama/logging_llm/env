@@ -1,0 +1,21 @@
+# 🔐 API Keys
+OPENAI_API_KEY=sk-abc123yourkeyhere
+OLLAMA_BASE_URL=http://localhost:11434
+LANGCHAIN_API_KEY=your-langchain-key-if-any
+
+# 🤖 Model Configuration
+MODEL_NAME=llama3
+TEMPERATURE=0.7
+MAX_TOKENS=512
+
+# 🧠 Agent Config
+AGENT_MODE=chat
+MEMORY_TYPE=buffer
+
+# 🛠 Optional Logging
+DEBUG=True
+LOG_LEVEL=info
+
+# 📦 Project Info
+PROJECT_NAME=vollama
+ENVIRONMENT=development
