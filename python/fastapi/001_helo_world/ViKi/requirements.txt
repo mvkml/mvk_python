@@ -1,0 +1,13 @@
+# FastAPI is the web framework for building APIs
+fastapi==0.111.0
+
+# Uvicorn is the ASGI server that runs FastAPI
+# "[standard]" installs performance extras (uvloop, httptools, websockets, etc.)
+uvicorn[standard]==0.30.1
+
+
+# Note: How to execute  requirements text 
+# pip install -r requirements.txt
+# python.exe -m pip install --upgrade pip
+# python main.py
+# python -m venv .venv
