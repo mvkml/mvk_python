@@ -1,0 +1,4 @@
+
+# === Core FastAPI & server ===
+fastapi==0.111.0               # Web framework
+uvicorn[standard]==0.30.1      # ASGI server + performance extras (uvloop, httptools, websockets)

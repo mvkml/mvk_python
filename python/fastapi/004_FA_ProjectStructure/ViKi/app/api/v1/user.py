@@ -3,12 +3,6 @@ from fastapi import APIRouter
 # Create router for user endpoints
 router = APIRouter()
 
-# Default endpoint for the User module
-@router.get("")
-def default():
-    return {"message": "User Avialable"}
-
-
 @router.get("/hello")
 def hello_user():
     """
