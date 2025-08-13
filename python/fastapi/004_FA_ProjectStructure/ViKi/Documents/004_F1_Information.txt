@@ -1,0 +1,25 @@
+
+open command prompt terminal
+C:\v\v\learn\lv_python\202508\python\fastapi\004_FA_ProjectStructure\ViKi\app\env
+python -m env env
+
+
+pip install -r requirements.txt
+
+python -m venv venv
+
+venv\Scripts\activate   # on Windows
+python/fastapi/004_FA_ProjectStructure/ViKi/app/venv/Scripts/activate.bat
+C:\v\v\learn\lv_python\202508\python\fastapi\004_FA_ProjectStructure\ViKi\app\venv\Scripts\deactivate.bat
+C:\v\v\learn\lv_python\202508\python\fastapi\004_FA_ProjectStructure\ViKi\app\venv\Scripts\activate.bat
+
+pip install -r requirements.txt
+C:\v\v\learn\lv_python\202508\python\fastapi\004_FA_ProjectStructure\ViKi\app\requirements.txt
+
+
+
+
+uvicorn app.main:app --reload
+
+
+uvicorn app.main:app --reload
