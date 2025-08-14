@@ -1,0 +1,10 @@
+CREATE TABLE "user" (
+    Id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    username TEXT NOT NULL,
+    phone TEXT NOT NULL,
+    fullName TEXT,
+    isActive BOOLEAN DEFAULT TRUE,
+    isSuperUser BOOLEAN DEFAULT FALSE,
+    CreatedDate TIMESTAMPTZ DEFAULT NOW(),
+    UpdatedDate TIMESTAMPTZ DEFAULT NOW()
+);
