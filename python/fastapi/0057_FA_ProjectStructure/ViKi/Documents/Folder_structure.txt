@@ -1,0 +1,61 @@
+ViKi/
+├─ app/
+│  ├─ main.py                     # Main FastAPI app
+│  ├─ config/
+│  │  ├─ settings.py              # App config/env variables
+│  │  └─ logging_config.py        # Optional logging setup
+│  ├─ api/
+│  │  ├─ __init__.py
+│  │  ├─ deps.py                  # Common dependencies (e.g., DB session, auth)
+│  │  ├─ v1/
+│  │  │  ├─ __init__.py
+│  │  │  ├─ user.py               # User router
+│  │  │  ├─ admin.py              # Admin router
+│  │  │  ├─ chat.py               # Chat router
+│  │  │  ├─ documents.py          # Documents router
+│  │  │  └─ report.py             # Report router
+│  │  └─ router.py                # Aggregate all routers
+│  ├─ models/
+│  │  ├─ __init__.py
+│  │  ├─ user.py
+│  │  ├─ admin.py
+│  │  ├─ chat.py
+│  │  ├─ documents.py
+│  │  └─ report.py
+│  ├─ schemas/
+│  │  ├─ __init__.py
+│  │  ├─ user.py
+│  │  ├─ admin.py
+│  │  ├─ chat.py
+│  │  ├─ documents.py
+│  │  └─ report.py
+│  ├─ services/
+│  │  ├─ __init__.py
+│  │  ├─ user_service.py
+│  │  ├─ admin_service.py
+│  │  ├─ chat_service.py
+│  │  ├─ documents_service.py
+│  │  └─ report_service.py
+│  ├─ repositories/
+│  │  ├─ __init__.py
+│  │  ├─ user_repo.py
+│  │  ├─ admin_repo.py
+│  │  ├─ chat_repo.py
+│  │  ├─ documents_repo.py
+│  │  └─ report_repo.py
+│  ├─ db/
+│  │  ├─ base.py                   # SQLAlchemy Base, engine, SessionLocal
+│  │  └─ init_db.py                # Initial DB data/seed logic
+│  └─ middleware/
+│     ├─ __init__.py
+│     └─ timing.py                 # Example middleware
+├─ tests/
+│  ├─ __init__.py
+│  ├─ test_user.py
+│  ├─ test_admin.py
+│  ├─ test_chat.py
+│  ├─ test_documents.py
+│  └─ test_report.py
+├─ .env.example
+├─ requirements.txt
+└─ run_dev.bat                     # Optional dev startup script

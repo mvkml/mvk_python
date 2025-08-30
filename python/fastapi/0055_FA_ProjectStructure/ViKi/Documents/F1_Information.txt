@@ -1,0 +1,51 @@
+
+open command prompt terminal
+C:\v\v\learn\lv_python\202508\python\fastapi\004_FA_ProjectStructure\ViKi\app\env
+python -m env env
+
+
+C:\v\v\learn\lv_python\202508\python\fastapi\004_FA_ProjectStructure\ViKi\app\
+
+C:\v\v\learn\lv_python\202508\python\fastapi\004_FA_ProjectStructure\ViKi\app\venv\Scripts\activate.bat
+python -m venv venv
+
+cd C:\v\v\learn\lv_python\202508\python\fastapi\004_FA_ProjectStructure\ViKi\app\
+pip install -r requirements.txt
+
+venv\Scripts\activate   # on Windows
+
+python/fastapi/004_FA_ProjectStructure/ViKi/app/venv/Scripts/activate.bat
+
+C:\v\v\learn\lv_python\202508\python\fastapi\004_FA_ProjectStructure\ViKi\app\venv\Scripts\deactivate.bat
+C:\v\v\learn\lv_python\202508\python\fastapi\004_FA_ProjectStructure\ViKi\app\venv\Scripts\activate.bat
+
+pip install -r requirements.txt
+C:\v\v\learn\lv_python\202508\python\fasptapi\004_FA_ProjectStructure\ViKi\app\requirements.txt
+
+
+uvicorn app.main:app --reload
+uvicorn app.main:app --reload
+
+venv
+C:\v\v\learn\lv_python\202508\python\fastapi\004_FA_ProjectStructure\ViKi\app\venv\Scripts\
+
+python -m venv venv
+
+cd C:\v\v\learn\lv_python\202508\python\fastapi\004_FA_ProjectStructure\ViKi\app\
+
+-----------------------------------  
+activate.bat
+C:\v\v\learn\lv_python\202508\python\fastapi\004_FA_ProjectStructure\ViKi\app\venv\Scripts\activate.bat
+
+(venv) C:>C:\v\v\learn\lv_python\202508\python\fastapi\004_FA_ProjectStructure\ViKi\app\venv\Scripts\activate.bat 
+
+-----------------------------------  
+
+-----------------------------------  
+cd till main.py path
+ex: 
+C:\v\v\learn\lv_python\202508\python\fastapi\005_FA_ProjectStructure\ViKi\app\main.py
+
+cd C:\v\v\learn\lv_python\202508\python\fastapi\005_FA_ProjectStructure\ViKi\app\
+C:\v\v\learn\lv_python\202508\python\fastapi\005_FA_ProjectStructure\ViKi\app>python main.py
+-----------------------------------  

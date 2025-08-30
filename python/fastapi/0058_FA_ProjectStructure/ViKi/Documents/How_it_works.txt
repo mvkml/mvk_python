@@ -1,0 +1,13 @@
+main.py → Creates the FastAPI app, loads middleware, includes the aggregated router from api/router.py
+
+api/v1/*.py → Routers for each module (e.g., /api/v1/user)
+
+models/*.py → SQLAlchemy database models
+
+schemas/*.py → Pydantic request/response models
+
+services/*.py → Business logic
+
+repositories/*.py → Database interaction logic
+
+api/router.py → Includes all module routers with app.include_router(...)
